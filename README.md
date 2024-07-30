@@ -49,55 +49,66 @@ RETURN
  Customer[last purchase] >= lastsales
 ```
 ![customer churn data for chinooks ](https://github.com/user-attachments/assets/ece41ad5-dfdb-41e1-9e90-8e3d39b2ac33)
+![Customer churn 2](https://github.com/user-attachments/assets/2f52d17d-a0a4-4829-8b98-b1e53ce0670c)
 
-## Insights
+Based on the data provided from the Chinook database for 2013, here are some insights and recommendations:
+
+### **Analysis**
 
 1. **Top Customers:**
-   - The top 5 customers have contributions that are relatively close in value, indicating a high level of revenue concentration among a few individuals.
-   
+   - The top 5 customers are contributing a significant portion of revenue, but the total contribution is relatively low, suggesting a limited number of high-value customers. 
+
 2. **Customer Churn:**
-   - There are 28 customers at risk of churn compared to 31 customers who are still active and not at risk. This suggests a potential issue with customer satisfaction or engagement.
+   - There are 28 customers at risk of churn, which is a notable proportion compared to the 31 customers who are not at risk. This indicates that maintaining current customers is critical for stability.
 
-3. **Total Sales by Country:**
-   - The USA is the largest contributor to sales, followed by Canada, France, and Brazil. Sales figures in many European countries are lower, with a significant drop from the USA to other regions.
-   - Countries such as Norway, Austria, Hungary, and Poland have very minimal sales figures, indicating potential areas for growth or reevaluation.
+3. **Sales by Country:**
+   - **USA** is the highest revenue generator, contributing $85.14. 
+   - **Canada** follows with $72.27.
+   - **France** and **Brazil** are also notable contributors but with significantly lower amounts.
 
-### Recommendations for Churning Customers
+4. **Churn by Country:**
+   - Churn risk is spread across multiple countries, with **Canada**, **Germany**, and **USA** having the highest number of at-risk clients (4 each).
+   - Other countries have fewer clients at risk, with a mix of countries having only 1 client at risk.
 
-1. **Analyze Churn Data:**
-   - **Identify Patterns:** Examine the churn list to identify common characteristics or behaviors among these customers. Look for patterns such as customer demographics, purchase history, or interaction frequency.
-   - **Determine Causes:** Understand why these customers are churning. Possible reasons could include dissatisfaction with the product/service, pricing issues, or competitive offerings.
+5. **Clients by Country:**
+   - The USA has the highest number of clients (13), followed by Canada (8).
+   - Other countries have significantly fewer clients, with some having just one.
 
-2. **Develop Targeted Retention Strategies:**
-   - **Personalized Outreach:** Contact churning customers directly through personalized communication. Address their specific concerns and offer solutions or incentives to retain them.
-   - **Tailored Offers:** Create customized offers or discounts to entice these customers to stay. Make sure the offers are relevant to their needs and preferences.
+### **Recommendations**
 
-3. **Improve Customer Experience:**
-   - **Feedback Collection:** Solicit feedback from churning customers to understand their reasons for leaving. Use this feedback to make improvements in your products, services, or customer support.
-   - **Enhance Service:** Review and improve customer service practices to address any common issues raised by churning customers. Ensure that the customer experience is consistently positive.
+1. **Focus on Retention Strategies:**
+   - **High-Risk Clients:** Since there is a considerable number of clients at risk of churn, implement targeted retention strategies. Consider offering personalized incentives or loyalty programs to retain these customers.
+   - **Top Customers:** Engage more with top customers (e.g., Helena Holy, Diego Gutierrez) to ensure their satisfaction and prevent churn.
 
-4. **Implement Churn Prevention Programs:**
-   - **Loyalty Programs:** Introduce or enhance loyalty programs to reward long-term customers and incentivize continued engagement.
-   - **Engagement Initiatives:** Increase engagement with churning customers through targeted content, follow-up communications, and regular check-ins to maintain their interest.
+2. **Market Expansion and Focus:**
+   - **High Revenue Countries:** Given that the USA and Canada are major revenue sources, consider focusing marketing and sales efforts in these regions. Tailor offers and promotions to these markets.
+   - **Underperforming Markets:** Explore why countries like Germany, Brazil, and France have lower sales and fewer clients. Investigate market conditions and adjust strategies accordingly.
 
-5. **Monitor and Adjust Strategies:**
-   - **Track Effectiveness:** Monitor the effectiveness of your retention strategies. Track metrics such as re-engagement rates and customer satisfaction levels.
-   - **Refine Approaches:** Continuously refine and adjust your retention efforts based on the outcomes and feedback from your initiatives.
+3. **Address Churn by Country:**
+   - **High Churn Countries:** For countries with higher churn rates (Canada, Germany, USA), analyze specific factors contributing to churn and address them. This may include improving customer service or customizing offerings.
+   - **Low Churn Countries:** For countries with lower churn rates, continue to nurture relationships and consider expanding these markets.
 
-### Next Steps
+4. **Customer Segmentation:**
+   - **Segment Customers:** Implement segmentation to better understand the needs of different customer groups. Tailor marketing and sales approaches based on these segments to enhance retention and acquisition.
 
-1. **Data Analysis:**
-   - Conduct a detailed analysis of the churn list to identify key trends and root causes of churn.
-   - Segment churning customers based on common attributes to tailor retention efforts more effectively.
+5. **Monitor and Evaluate:**
+   - **Track Performance:** Regularly track performance metrics for both sales and churn rates. Adjust strategies based on performance data to ensure continuous improvement.
 
-2. **Action Plan:**
-   - Develop a comprehensive action plan that includes personalized outreach, tailored offers, and improved customer experience strategies.
-   - Assign responsibilities and timelines for implementing these strategies.
+### **Next Steps**
 
-3. **Feedback and Improvement:**
-   - Create a system for collecting and analyzing feedback from churning customers.
-   - Use this feedback to inform product or service improvements.
+1. **Detailed Churn Analysis:**
+   - Conduct a deeper analysis to understand the reasons behind customer churn. Surveys or feedback from at-risk customers can provide valuable insights.
 
-4. **Performance Tracking:**
-   - Set up mechanisms to track the impact of retention efforts on churn rates and customer satisfaction.
-   - Regularly review the performance of retention strategies and make adjustments as necessary.
+2. **Targeted Marketing Campaigns:**
+   - Develop and launch targeted marketing campaigns aimed at retaining high-risk customers and boosting sales in high-potential markets.
+
+3. **Customer Engagement Initiatives:**
+   - Enhance customer engagement through personalized communication, loyalty programs, and exclusive offers to reduce churn and increase satisfaction.
+
+4. **Expand Market Research:**
+   - Conduct market research to identify opportunities for growth in underperforming countries and adapt strategies based on local conditions.
+
+5. **Regular Review and Adaptation:**
+   - Set up a regular review process to assess the effectiveness of implemented strategies and make necessary adjustments based on new data and feedback.
+
+By addressing these areas, the company can enhance customer retention, optimize sales strategies, and improve overall performance.
