@@ -51,8 +51,6 @@ RETURN
 ![customer churn data for chinooks ](https://github.com/user-attachments/assets/ece41ad5-dfdb-41e1-9e90-8e3d39b2ac33)
 ![Customer churn 2](https://github.com/user-attachments/assets/2f52d17d-a0a4-4829-8b98-b1e53ce0670c)
 
-Based on the data provided from the Chinook database for 2013, here are some insights and recommendations:
-
 ### **Analysis**
 
 1. **Top Customers:**
